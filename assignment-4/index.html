@@ -126,19 +126,26 @@
           <p>“Hi! I'm a
             <select name="experience-level">
             <!-- Step 10 -->
-
+              <option value="Guppy">Guppy</option>
+              <option value="Beg.">Beginner</option>
+              <option value="Novice" selected>Novice</option>
+              <option value="Journeyman">Journeyman</option>
+              <option value="Expert">Expert</option>
+              <option value="Wiz.">Wizard</option>
+              <!-- Continued... -->
             </select>
             web designer or developer.”</p>
 
           <p>“Last year, I spent
             <!-- Step 11 -->
-            <input type="text" name="experince-time"
+            <input type="numbers" name="experince-time"
             id="experince-time" placeholder="##" min="0" max="12" size="2"/>
             months studying or working in this field.”</p>
 
           <!-- Step 12 (textarea) -->
-          “I think my most difficult task will be...
-        </div>
+          <p>
+            <textarea name="task-name" id="task-name" cols="30" rows="2">“I think my most difficult task will be...</textarea>
+          </p></div>
       </fieldset>
 
 
@@ -147,8 +154,33 @@
 
       <!-- Part 3: Course Offerings -->
       <!-- Steps 13-18 -->
+      <table>
+   <tr>
+      <th></th>
+      <th scope="col">Spring Semester</th>
+      <th scope="col">Summer Session</th>
+      <th scope="col">Autumn Semester</th>
+      <th scope="col">Winter Session</th>
+      <th scope="col">Special Session</th>
+   </tr>
+   <tr>
+      <th scope="row">Individual Times</th>
+      <td>Monday, Wednesday - 12:00 pm to 2:00 pm</td>
+      <td>Friday - 5:30 pm to 9:30 pm</td>
+      <td>Monday, Wednesday - 12:00 pm to 2:00 pm</td>
+      <td>Friday - 12:00 pm to 4:00 pm</td>
+      <td>TBA</td>
 
-
+   </tr>
+   <tr>
+      <th scope="row">Seats Available</th>
+      <td>12/60</td>
+      <td>Full</td>
+      <td>Full</td>
+      <td>2/60</td>
+      <td>0/60</td>
+   </tr>
+</table>
         <!-- Step 19 -->
         <table>
 
