@@ -1,65 +1,16 @@
-[ Browser Size ]
-AS VIEWED IN FIREFOX
-INDEX
-CSS
-STYLESHEET
-body {
- font-size: 14pt;
- color: white;
-}
-.box-1 {
- background-color: rgb(255, 0, 0);
- height: 250px;
-}
-.box-1.inner {
- background-color: rgb(0, 0, 255);
- opacity: 0.5;
- width: 60%;
- height: 300px;
- margin-top: 10px;
- margin-left: 50px;
-}
-.box-2 {
- background-color: rgba(0, 255, 0, 0.5);
- position: absolute;
- left: 120px;
- top: 140px;
- width: 40%;
- height: 300px;
-}
-.line-vertical {
- width: 5px;
- height: 100%;
- background-color: yellow;
- position: absolute;
- top: 0;
- left: 30px;
- z-index: -5;
-}
-.line-horizontal {
- width: 80%;
- height: 5px;
- background-color: black;
- position: absolute;
- bottom: 25px;
- right: 0;
-}
-img {
- width: 200px;
-}
-.image-box {
- position: absolute;
- bottom: 25px;
- right: 15px;
- z-index: 1;
-}
-.image-box>p {
- position: absolute;
- bottom: 60px;
- right: 60px;
- font-weight: bold;
- text-align: center;
- color: #000;
- font-family: 'Orbitron', sans-serif;
- font-size: 30px;
-}
+use 2 different selector types.
+2 different selector chains.
+Override the cascade using important on an attribute to force a rule.
+Set the background-color of the page.
+IMPORTANT: Create a square layout to your page. We will be viewing your
+pages at 800px by 800px, so your artwork should function at equal length and
+width. Open your index.html in your browser, and use What's my Browser Size?
+to help you see how your page will look to us.
+Decide on the sizes of the div blocks you created. Experiment with how they
+interact with each other through cascading, and placement on your HTML page.
+Use example 1 and example 2 as playgrounds to experiment.
+Carefully use color to fill these divs. (You can also consider using the
+  background-image: url() rule you learned from P2!)
+Style the text.
+Set the opacity of an element.
+Add a comment in your CSS document.
